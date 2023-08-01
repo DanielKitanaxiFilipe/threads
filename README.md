@@ -64,6 +64,6 @@ Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licens
 
 ## Contato
 
-Se tiver alguma dúvida ou feedback, sinta-se à vontade para nos contatar em [contato@threads.com](mailto:contato@threads.com).
+Se tiver alguma dúvida ou feedback, sinta-se à vontade para me contatar em [Daniel Filipe](https://www.facebook.com/profile.php?id=100050680572102).
 
 Aproveite para se conectar e compartilhar com o Threads! 🎉
