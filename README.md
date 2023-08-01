@@ -1,8 +1,8 @@
-<img src="./src/assets/ui&ux.png" alt="">
+<img src="./src/assets/ui&ux.png" alt="ui & ux">
 
 **Threads - Plataforma de Rede Social**
 
-![Threads Logo](/path/to/logo.png)
+<img src="./src/assets/threads-logo.svg" alt="logo" width="300">
 
 Threads é uma plataforma de rede social projetada para conectar pessoas, compartilhar pensamentos e participar de conversas significativas. Com uma interface amigável e foco na simplicidade, o Threads permite que você descubra e interaja com conteúdo de amigos, familiares e pessoas com interesses similares.
 
