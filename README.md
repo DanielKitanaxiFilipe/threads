@@ -66,4 +66,13 @@ Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licens
 
 Se tiver alguma dúvida ou feedback, sinta-se à vontade para me contatar em [Daniel Filipe](https://www.facebook.com/profile.php?id=100050680572102).
 
+<hr>
+
+Quanto ao dono do [UI & UX](https://www.figma.com/community/file/1258765574014030329/Threads--by-Instagram-Web-Design-Dark-UI), [Shekh Al Raihan](https://dribbble.com/rtralrayhan), quero agradecer pela inspiração que você me proporcionou para criar o Threads. Seu trabalho me motivou a desenvolver uma plataforma que oferece uma experiência amigável, bonita e funcional aos nossos usuários.
+
+Caso você deseje entrar em contato ou tenha algum feedback específico sobre o uso de suas ideias no Threads, ficarei feliz em ouvir suas sugestões e opiniões. Meu objetivo é sempre valorizar e respeitar a criatividade e o trabalho de outros profissionais, e estou aberto a qualquer discussão sobre o assunto.
+
+Obrigado novamente por inspirar nosso projeto e nos permitir criar uma plataforma que esperamos que seja útil e apreciada por muitas pessoas! 🙌
+
+
 Aproveite para se conectar e compartilhar com o Threads! 🎉
