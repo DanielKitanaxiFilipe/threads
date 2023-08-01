@@ -1,0 +1,8 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@font-face{
+  font-family:CircularStdBook;
+  src: url(./assets/fonts/CircularStdBook.ttf);
+}
+body{
+  font-family:CircularStdBook ;
+}
