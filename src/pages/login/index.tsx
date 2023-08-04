@@ -1,4 +1,4 @@
-import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import { getFirestore, collection, addDoc, getDocs } from 'firebase/firestore';
@@ -9,7 +9,7 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 
 const Login = () => {
-  const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+  const [user, loading, error] = useAuthState(auth);
 
   const handleSignInWithGoogle = async () => {
     try {

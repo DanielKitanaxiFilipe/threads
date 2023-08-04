@@ -12,6 +12,7 @@ import {
   ref,
   uploadBytesResumable,
 } from "firebase/storage";
+import { Link } from "react-router-dom";
 const firebaseConfigDB = initializeApp(firebaseConfig);
 
 const app = initializeApp(firebaseConfig);
@@ -169,6 +170,7 @@ function Home() {
 
   return (
     <div>
+      <Link to={'/login'}>login</Link>
       <button onClick={logout}>Log out</button>
       <button
         onClick={async () => {
