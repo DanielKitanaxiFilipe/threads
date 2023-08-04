@@ -1,0 +1,10 @@
+import { IconName } from "react-icons/hi";
+
+HiHome
+HiHeart
+HiOutlineChat
+HiOutlinePaperAirplane
+HiOutlinePlusCircle
+HiOutlinePlusSm
+HiOutlineDotsHorizontal
+HiOutlineMenu
