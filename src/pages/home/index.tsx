@@ -61,7 +61,7 @@ function Home() {
   const [postPhoto, setPostPhoto] = useState<File | null>(null);
   const storage = getStorage(app);
   const [previewImage, setPreviewImage] = useState<string | null>(null);
-
+  const [showDiv, setShowDiv] = useState(false);
   const handlePostSubmit = async () => {
     try {
       if (postText || postPhoto) {
@@ -205,12 +205,38 @@ function Home() {
     });
     listUsers();
     return () => {
-      unsubscribe(); // Importante: Desinscrever o listener ao desmontar o componente
+      unsubscribe(); 
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 569) {
+        setShowDiv(false);
+      } else {
+        setShowDiv(true);
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    handleResize();
+    return () => {
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
   return (
     <>
+      {showDiv && 
+      <div className="showDiv d-flex align-items-center">
+        <div className="container">
+          <div className="row  justify-content-center">
+            <div className="col-lg-5 text-center">
+            Application is not compatible with this resolution 🚫
+            </div>
+          </div>
+        </div>
+      </div>
+      }
       <main>
         <section className="d-flex ">
           <Menu />
@@ -313,7 +339,7 @@ function Home() {
                     </div>
                   ) : null}
                 </div>
-                <div className="col-lg-3 ms-5">
+                <div className="col-lg-3 display ms-5">
                   <div className="top-sty">
                     {userData && ( // Check if userData is available
                       <CardUser

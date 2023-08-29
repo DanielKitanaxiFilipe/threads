@@ -22,3 +22,6 @@ body {
   max-height: 100vh;
   overflow: auto;
 }
+@media (max-width: 992px) { .display{
+  display: none;
+} }
