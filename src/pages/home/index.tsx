@@ -205,7 +205,7 @@ function Home() {
     });
     listUsers();
     return () => {
-      unsubscribe(); 
+      unsubscribe();
     };
   }, []);
 
@@ -217,26 +217,26 @@ function Home() {
         setShowDiv(true);
       }
     };
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     handleResize();
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   return (
     <>
-      {showDiv && 
-      <div className="showDiv d-flex align-items-center">
-        <div className="container">
-          <div className="row  justify-content-center">
-            <div className="col-lg-5 text-center">
-            Application is not compatible with this resolution 🚫
+      {showDiv && (
+        <div className="showDiv d-flex align-items-center">
+          <div className="container">
+            <div className="row  justify-content-center">
+              <div className="col-lg-5 text-center">
+                Application is not compatible with this resolution 🚫
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      }
+      )}
       <main>
         <section className="d-flex ">
           <Menu />
@@ -323,15 +323,15 @@ function Home() {
                   )}
 
                   {posts.map((post) => (
-                      <div key={post.id}>
-                        <CardPost
-                          nameUser={post.displayName}
-                          photoUser={post.photoURL}
-                          text={post.text}
-                          img={post.photo}
-                        />
-                      </div>
-                    ))}
+                    <div key={post.id}>
+                      <CardPost
+                        nameUser={post.displayName}
+                        photoUser={post.photoURL}
+                        text={post.text}
+                        img={post.photo}
+                      />
+                    </div>
+                  ))}
 
                   {posts.length === 0 ? (
                     <div className="alert alert-dark pt-4 pb-4 mb-5">
@@ -372,9 +372,9 @@ function Home() {
 
                     <div className="mt-4 div-users">
                       <div className="d-flex mb-3 justify-content-between">
-                        <h6 className="h6">Suggested for you</h6>
+                        <h6 className="h6">Recommended for You</h6>
                         <Link to="" className="a-link">
-                          See All
+                          View All
                         </Link>
                       </div>
 
