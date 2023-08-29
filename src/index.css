@@ -1,8 +1,24 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
-@font-face{
-  font-family:CircularStdBook;
+@import "bootstrap/dist/css/bootstrap.min.css";
+@font-face {
+  font-family: CircularStdBook;
   src: url(./assets/fonts/CircularStdBook.ttf);
 }
-body{
-  font-family:CircularStdBook ;
+body {
+  font-family: CircularStdBook;
+  background: black;
+  color: white;
+  overflow: hidden;
+}
+.w-100 {
+  width: 100%;
+}
+.top-sty{
+  position: sticky;
+  top: 0px;
+}
+.h-100 {
+  /* mianheight: 100vh; */
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
 }

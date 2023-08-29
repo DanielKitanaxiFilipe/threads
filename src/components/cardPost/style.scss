@@ -1,0 +1,88 @@
+.cardPost {
+    border-bottom: solid 1px #1f1f1f;
+    padding-bottom: 25px;
+  .card-top {
+    margin-bottom: -43px;
+    .avatar {
+      margin-left: -23px;
+      width: 46px;
+      height: 46px;
+      border-radius: 50px;
+      img {
+        width: 46px;
+        height: 46px;
+        border-radius: 50px;
+        object-fit: cover;
+        object-position: top;
+        border: 5px solid black;
+      }
+    }
+  }
+  .card-post {
+    border-left: 1px solid #484848;
+    padding-left: 30px;
+    .menus-bottons {
+      button {
+        background: none;
+        outline: none;
+        border: none;
+        color: white;
+        font-size: 27px;
+        padding: 0;
+        margin-right: 12px;
+      }
+    }
+  }
+  .card-botton {
+    .avatares {
+      margin-left: -25px;
+      .avatar-a {
+        width: 27px;
+        height: 27px;
+        margin-right: 5px;
+        border-radius: 50px;
+        img {
+          width: 27px;
+          height: 27px;
+          object-position: top;
+          object-fit: cover;
+          border-radius: 50px;
+        }
+      }
+      .avatar-b {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        border-radius: 50px;
+        margin-top: 2px;
+        img {
+          width: 20px;
+          height: 20px;
+          object-fit: cover;
+          object-position: top;
+          border-radius: 50px;
+        }
+      }
+      .avatar-c {
+        margin-top: -4px;
+        margin-left: 13px;
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+        border-radius: 50px;
+        img {
+          width: 15px;
+          height: 15px;
+          object-fit: cover;
+          object-position: top;
+          border-radius: 50px;
+        }
+      }
+    }
+    span{
+        margin-left: 5px;
+        margin-top: 5px;
+        color: #535353;
+    }
+  }
+}

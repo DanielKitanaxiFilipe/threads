@@ -1,0 +1,63 @@
+.user{
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      margin-right: -2px;
+      img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 50px;
+      }
+    }
+    h6{
+      margin-bottom: -2px;
+    }
+    span{
+      color: #646464;
+    }
+    .a-link{
+      font-size: 14px;
+      text-decoration: none;
+    }
+  }
+  .div-users{
+    .h6{
+      color: #646464;
+    }
+    .a-link{
+      color: #c5c5c5;
+      text-decoration: none;
+    }
+    .users{
+      .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-right: -2px;
+        img {
+          width: 40px;
+          height: 40px;
+          object-fit: cover;
+          object-position: top;
+          border-radius: 50px;
+        }
+      }
+      h6{
+        margin-bottom: -2px;
+      }
+      span{
+        color: #646464;
+      }
+      .a-link{
+        font-size: 14px;
+        text-decoration: none;
+      }
+    }
+    .btn{
+      font-size: 13px;
+    }
+  }
+  

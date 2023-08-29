@@ -8,3 +8,4 @@ HiOutlinePlusCircle
 HiOutlinePlusSm
 HiOutlineDotsHorizontal
 HiOutlineMenu
+HiLink
